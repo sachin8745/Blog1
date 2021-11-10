@@ -1,0 +1,41 @@
+.container {
+    border: 1px solid #ccc;
+    margin: 0 50px 0 50px;
+    padding: 30px 120px 30px 90px;
+    font-family: "Alike";
+  }
+  .container .main {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 50%;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 80px;
+  }
+  .container .main .first h1 span {
+    text-transform: capitalize;
+  }
+  .container .main .first a {
+    text-decoration: none;
+    color: #1f7260;
+    font-weight: bolder;
+  }
+  .container .second {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto;
+    grid-template-columns: auto auto auto;
+  }
+  .container .second div {
+    width: 250px;
+  }
+  .container .second div img {
+    width: 250px;
+    height: 150px;
+    border: 1px solid #eee;
+    -webkit-box-shadow: 1px 1px 8px 1px #eee;
+            box-shadow: 1px 1px 8px 1px #eee;
+  }
+  .container .second div h3 {
+    text-transform: capitalize;
+    color: #1f7260;
+  }
